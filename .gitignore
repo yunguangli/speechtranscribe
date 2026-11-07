@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environments / secrets
+.env
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Flet
+.flet/
+build/
+src/assets/models
+
+# Downloaded model weights (~786 MB); fetch with tools/fetch_weights.py
+src/assets/models/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
